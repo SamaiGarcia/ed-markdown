@@ -23,22 +23,10 @@
 │   └── …
 └── /
 ```
-    
+
 > **Notas**
 > - El profe deja los enunciados en `actividades/Actividad-X/enunciado.md`.
 > - Tú escribes tu solución en `alumnos/<tu-nombre>/Actividad-X/README.md`.
-
----
-
-## ✅ Qué se practica en cada actividad
-
-- **Párrafos** y **nueva línea manual** (dos espacios al final, o `\`, o `<br>`).
-- **Encabezados** (`#` … `######`) con jerarquía clara.
-- **Separador** `---` para dividir secciones.
-- **Énfasis:** *cursiva*, **negrita**, ~~tachado~~.
-- **Citas** con `>`.
-- **Código**: `inline` y **bloque con idioma** (ej. `bash`, `powershell`, `java`, `kotlin`, `sql`, `json`).
-- (Opcional) **Tabla**, **checklist**, imagen con ruta **relativa**.
 
 ---
 
