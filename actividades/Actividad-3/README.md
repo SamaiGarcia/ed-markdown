@@ -9,23 +9,35 @@ partiendo del `texto de partida` muestre la `Salida esperada`.
 
 ## Texto de partida
 ```plaintext
-Incidencia: login devuelve 401
-El login contra la API devuelve 401 Unauthorized pese a usar credenciales válidas.
-La conectividad con el servidor es correcta, así que revisamos la petición.
-Síntomas
-El usuario introduce credenciales válidas; la API responde 401. \
-Conectividad OK (no es un problema de red).
-Acciones
-Endpoint: POST /api/v1/login
-Cabeceras a revisar: Content-Type: application/json
-curl -i -X POST https://api.ejemplo.com/api/v1/login \
-  -H "Content-Type: application/json" \
-  -d '{"email":"demo@ejemplo.com","password":"demo123"}'
-“No puedo iniciar sesión desde esta mañana.” — cliente
-Conclusión
-La causa más probable es un header ausente o un campo mal escrito (p. ej., email vs. username).
-Próxima acción: corregir la request y repetir la prueba (esperamos 200 OK y token de sesión).
-Estado: incidencia abierta → en revisión.
+Sprint 0 — Plan de trabajo
+Objetivo: preparar el entorno y dejar una demo mínima lista para enseñar.
+Equipo
+Product Owner: Ana
+Scrum Master: Javi
+Devs: Laura, Marc
+Alcance del sprint
+Repositorio creado
+Android Studio instalado y JDK 21 listo
+CI básico configurado
+Plan de trabajo (numerado)
+Revisar requisitos y limitar alcance a una demo mínima.
+Este punto aclara qué entra y qué no entra en el sprint, para evitar confusiones y cambios de última hora.
+Preparar entorno de desarrollo.
+Cada dev instala herramientas y valida que el proyecto compila en su equipo.
+Demo mínima.
+Una pantalla inicial que muestre Hola y un botón funcional.
+Checklist del sprint (GFM)
+[x] Crear repositorio
+[ ] Configurar CI
+[ ] Instalar Android Studio y JDK
+Responsables (tabla GFM)
+Tarea	Responsable	Prioridad
+Crear repo	Laura	Alta
+Configurar CI	Marc	Media
+Instalar herramientas	Equipo	Alta
+Definiciones (opcional)
+CI : Integración continua: ejecuciones automáticas para build y pruebas.
+Demo mínima : Versión funcional con lo básico; suficiente para mostrar valor.
 ```
 
 ---
