@@ -5,7 +5,7 @@
 ---
 
 ## 🗂️ Estructura del repositorio
-
+```
 .
 ├── actividades/
 │   ├── Actividad-1/
@@ -22,7 +22,8 @@
 │   │   └── README.md
 │   └── …
 └── /
-
+```
+    
 > **Notas**
 > - El profe deja los enunciados en `actividades/Actividad-X/enunciado.md`.
 > - Tú escribes tu solución en `alumnos/<tu-nombre>/Actividad-X/README.md`.
